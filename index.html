@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+     <div class="cont-img">
+       <img class="img" src="dice.png"  id="dice-img"  >
+     </div>
+      <button class="btn" onclick="dice()">
+        Click
+      </button>
+
+    </div>
+    <script>
+   const element = document.getElementById("dice-img");
+ 
+   function dice()
+    {
+       const min = 1;
+       const max = 7;
+    
+       const randomnumber= Math.floor(Math.random()*(max-min)); 
+        
+       if(randomnumber==1){
+        element.src='1.png';
+       }
+
+      else if(randomnumber==2)
+      {
+        element.src='2.png';
+       }
+
+      else if(randomnumber==3){
+        element.src='3.png';
+       }
+
+       else if(randomnumber==4){
+        element.src='4.png';
+       }
+      else if(randomnumber==5)
+      {
+        element.src='5.png';
+       }
+      else{
+        element.src='6.png'
+      }
+   }
+
+    </script>
+</body>
+</html>

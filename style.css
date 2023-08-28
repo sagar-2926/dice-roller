@@ -1,0 +1,22 @@
+.main-container{
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+    border: 25px solid grey;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+.cont-img{
+    
+}
+.img{
+    height: 150px;
+    width: 130px;
+    margin-top: 10px;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+}
